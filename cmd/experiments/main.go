@@ -7,7 +7,7 @@ func main() {
 	var name string = "Мартин"
 	completed := 1
 	var ready bool = true
-	var hours float64 = 0.2323
+	var hours float64 = 0.2
 
 	fmt.Println("Изучаем", language)
 	fmt.Printf("Участник: %s\n", name)
@@ -18,3 +18,5 @@ func main() {
 	completed = 2
 	fmt.Printf("После изменения: %d\n", completed)
 }
+
+// для изменения
