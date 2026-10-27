@@ -18,5 +18,3 @@ func main() {
 	completed = 2
 	fmt.Printf("После изменения: %d\n", completed)
 }
-
-// для изменения
