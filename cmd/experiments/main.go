@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	const language = "Go"
-	var name string = "Ирина"
+	var name string = "Мартин"
 	completed := 1
 	var ready bool = true
-	var hours float64 = 1.5
+	var hours float64 = 0.2323
 
 	fmt.Println("Изучаем", language)
 	fmt.Printf("Участник: %s\n", name)
