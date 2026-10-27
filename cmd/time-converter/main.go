@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	const minutesPerHour = 60
 	var totalMinutes int
 	fmt.Print("Введите количество минут: ")
 
@@ -19,6 +20,10 @@ func main() {
 
 	// TODO: объявите константу — количество минут в одном часе.
 	// TODO: вычислите полные часы и оставшиеся минуты.
+	hours := totalMinutes / minutesPerHour
+	minutes := totalMinutes % minutesPerHour
 	// TODO: выведите результаты в формате задания 3.
 	fmt.Printf("Получено минут: %d. Добавьте вычисления.\n", totalMinutes)
+	fmt.Printf("Полных часов: %d\n", hours)
+	fmt.Printf("Оставшихся минут: %d\n", minutes)
 }
